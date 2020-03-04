@@ -338,7 +338,7 @@
         </div>
       </div>
     </div>
-    <div class="slider" style="touch-action: pan-y;">
+    <div class="slider" id="eyepass__slider" style="touch-action: pan-y;">
       <input checked type="radio" name="respond" id="desktop" style="touch-action: pan-y;">
       <article id="slider" style="touch-action: pan-y;">
         <input checked type="radio" name="slider" id="switch1">
@@ -373,8 +373,7 @@
         </div>
       </article>
       <script>
-        document.getElementById("slider").addEventListener("touchstart", alert('touch start'), false);
-        document.getElementById("slider").addEventListener("touchmove", alert("touched"), false);
+        document.getElementById("eyepass__slider").addEventListener("touchmove", alert('touch start'), false);
       </script>
     </div>
     <div id="rec165446511" class="r t-rec t-rec_pt_45 t-rec_pb_0" style="padding-top:45px;padding-bottom:0px;background-color:#ffffff; "
