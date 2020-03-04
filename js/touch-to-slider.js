@@ -4,6 +4,6 @@ function touch(event) {
     //   el.addEventListener("touchmove", console.log("touched"), false);
 }
 
-document.addEventListener("touchmove", touch(event));
-document.addEventListener("drag", touch(event));
-document.addEventListener("click", touch(event));
+document.addEventListener("touchmove", touch);
+document.addEventListener("drag", touch);
+document.addEventListener("click", touch);
