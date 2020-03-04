@@ -1,5 +1,5 @@
 function touch(event) {
-    console.log(event)
+    alert(event)
     //    let el = document.getElementById("slider");
     //   el.addEventListener("touchmove", console.log("touched"), false);
 }
