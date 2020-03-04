@@ -6,8 +6,6 @@ function touch(event) {
     number == 5 ? number = 1 : number++;
     let new_elem = document.getElementById("switch" + number);
     new_elem.setAttribute("checked", true);
-    alert({ el_id, slide, number, new_elem })
-
 }
 
 document.addEventListener("touchmove", touch);
